@@ -1,8 +1,7 @@
-class Filename
-    attr_reader :name, :text
+class FilenameNew
+    attr_reader :names
 
     def initialize
-        @name = "bob"
-        @text = "text"
+        @names = "bobs"
     end
 end
